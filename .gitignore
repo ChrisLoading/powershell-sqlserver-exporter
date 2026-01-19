@@ -1,0 +1,12 @@
+# Windows system files
+[Dd]esktop.ini
+[Tt]humbs.db
+
+# macOS system files
+.DS_Store
+
+# Log files
+*.log
+
+# Visual Studio Code settings    
+.vscode/
