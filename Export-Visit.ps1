@@ -58,11 +58,11 @@ DECLARE @Start datetime2(0) = @pStart;
 DECLARE @End datetime2(0) = @pEnd;
 
 SELECT *
-FROM dbo.vVisit_WithVisitDT
-WHERE VisitDT IS NOT NULL
-  AND VisitDT >= @Start
-  AND VisitDT < @End
-ORDER BY VisitDT DESC;
+FROM <YourViewName>
+WHERE <TargetColumnName> IS NOT NULL
+  AND <TargetColumnName> >= @Start
+  AND <TargetColumnName> < @End
+ORDER BY <TargetColumnName> DESC;
 "@
 
 $conn = $null
